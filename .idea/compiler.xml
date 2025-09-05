@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aircraft_springboot" options="-parameters" />
+      <module name="aircraft_springboot.main" options="-parameters" />
+      <module name="aircraft_springboot.test" options="-parameters" />
+    </option>
+  </component>
+</project>
