@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Turtle" target="21" />
+    </bytecodeTargetLevel>
+  </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Turtle" options="-parameters" />
+      <module name="Turtle.main" options="-parameters" />
+      <module name="Turtle.test" options="-parameters" />
       <module name="aircraft_springboot" options="-parameters" />
       <module name="aircraft_springboot.main" options="-parameters" />
       <module name="aircraft_springboot.test" options="-parameters" />
