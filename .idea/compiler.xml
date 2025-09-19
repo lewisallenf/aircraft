@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="Turtle" target="21" />
+      <module name="Turtle.main" target="21" />
+      <module name="Turtle.test" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -21,7 +21,7 @@ public class AircraftServiceTest {
 
     @InjectMocks
     AircraftService aircraftService;
-    Aircraft doghouse = new Aircraft(1L, "doghouse","bob");
+    Aircraft doghouse = new Aircraft(1L, "doghouse",null);
     List<Aircraft> flight;
 
     @BeforeEach

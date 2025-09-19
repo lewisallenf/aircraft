@@ -35,8 +35,8 @@ public class AircraftControllerTest {
     @MockitoBean
     AircraftService aircraftService;
 
-    Aircraft doghouse = new Aircraft(1L, "doghouse", "Snoopy");
-    Aircraft triplane = new Aircraft(2L, "triplane", "Baron");
+    Aircraft doghouse = new Aircraft(1L, "doghouse", null);
+    Aircraft triplane = new Aircraft(2L, "triplane", null);
     ArrayList<Aircraft> aircraft = new ArrayList<>(List.of(doghouse, triplane));
 
     @Autowired
